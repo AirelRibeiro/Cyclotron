@@ -33,3 +33,4 @@ def cyclotron(particle, matrix_size):
 particle = input("Digite otipo  de partícula (e, p ou n): ")
 matrix_size = int(input("Digite o tamanho da matriz: "))
 
+cyclotron(particle, matrix_size)
