@@ -26,5 +26,7 @@ def cyclotron(particle, matrix_size):
     elif particle == "n":
         matrix[0] = [particle] * matrix_size
 
-    return matrix
+    for row in matrix:
+        print(row)
+
 
