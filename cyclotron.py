@@ -23,3 +23,8 @@ def cyclotron(particle, matrix_size):
                 ):
                     matrix[i][j] = particle
 
+    elif particle == "n":
+        matrix[0] = [particle] * matrix_size
+
+    return matrix
+
