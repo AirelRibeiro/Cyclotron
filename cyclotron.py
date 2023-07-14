@@ -3,7 +3,7 @@ def cyclotron(particle, matrix_size):
 
     if particle == "e":
         for i in range(matrix_size):
-            if i == 0 or i == matrix_size - 1:
+            if i == 0:
                 matrix[i] = [particle] * matrix_size
             else:
                 matrix[i][-1] = particle
