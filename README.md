@@ -8,7 +8,15 @@ Certifique-se de ter o Python instalado em seu sistema.
 
 1. Clone este repositório para o seu computador.
 
-2. Navegue até o diretório do projeto.
+```
+git clone git@github.com:AirelRibeiro/Cyclotron.git
+```
+
+2. Navegue até o diretório do projeto:
+
+```
+cd Cyclotron
+```
 
 3. Execute o seguinte comando para executar o projeto:
 
@@ -16,6 +24,6 @@ Certifique-se de ter o Python instalado em seu sistema.
 python3 cyclotron.py
 ```
 
-4. Você verá a saída resultante do algoritmo no console.
+4. Você poderá especificar o tipo da partícula e o tamanho da matriz, para então ver no console o resultado da aceleração.
 
-Sinta-se à vontade para modificar o código do `cyclotron.py` conforme necessário para testar diferentes partículas e tamanhos de matriz.
+### Sinta-se à vontade para testar o código do `cyclotron.py` com diferentes partículas e tamanhos de matriz.
